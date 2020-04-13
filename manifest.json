@@ -1,0 +1,27 @@
+{
+  "name": "Google Meets Attendance",
+  "version": "0.0.3",
+  "manifest_version": 2,
+  "description": "Automatically saves all the current attendees to a spreadsheet.",
+  "homepage_url": "http://example.com/",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": ["js/inject.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "Instructions Popup",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "permissions": [
+	"tabs",
+    "contextMenus",
+    "https://meet.google.com/*"
+  ]
+}
