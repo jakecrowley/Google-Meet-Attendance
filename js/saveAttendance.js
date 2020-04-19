@@ -12,12 +12,6 @@ var saveData = (function () {
     };
 }());
 
-var text = "Name,Time Joined\r\n";
-for(var i = 0; i < attendees.length; i++)
-{
-	text += attendees[i].name + "," + attendees[i].time + "\r\n";
-}
-
 var date = new Date();
 var dateStr = ((date.getMonth() > 8) ? (date.getMonth() + 1) : ('0' + (date.getMonth() + 1))) + '-' + ((date.getDate() > 9) ? date.getDate() : ('0' + date.getDate())) + '-' + date.getFullYear();
 var timeStr = date.toLocaleTimeString().replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, "$1$3").replace(":", "-");
