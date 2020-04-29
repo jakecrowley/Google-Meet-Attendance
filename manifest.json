@@ -1,6 +1,6 @@
 {
   "name": "Google Meet Attendance",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "manifest_version": 2,
   "description": "Automatically saves all the current attendees to a spreadsheet.",
   "homepage_url": "http://example.com/",
