@@ -1,9 +1,9 @@
 {
   "name": "Google Meet Attendance",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "manifest_version": 2,
-  "description": "Automatically saves all the current attendees to a spreadsheet.",
-  "homepage_url": "http://example.com/",
+  "description": "Save the time joined and left of all attendees with one click!",
+  "homepage_url": "https://github.com/jakecrowley/Google-Meet-Attendance",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",

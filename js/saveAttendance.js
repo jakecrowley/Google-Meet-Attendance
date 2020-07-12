@@ -3,7 +3,7 @@ var saveData = (function () {
     document.body.appendChild(a);
     a.style = "display: none";
     return function (data, fileName) {
-        var blob = new Blob([ls.getItem(code + "_text")], {type: 'text/plain'}),
+        var blob = new Blob(['\ufeff' + ls.getItem(code + "_text")], {type: 'text/plain;charset = utf-8'}),
             url = window.URL.createObjectURL(blob);
         a.href = url;
         a.download = fileName;
